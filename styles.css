@@ -19,12 +19,12 @@ body {
 }
 
 h1 {
-    color: #ff0000; /* Couleur du texte de niveau H1 (rouge dans ce cas) */
+    color: #8ea92b; /* Couleur du texte de niveau H1 (rouge dans ce cas) */
 }
 
 p {
     font-size: 14px; /* Taille de la police pour les paragraphes */
-    color: #ff0000; /* Couleur du texte des paragraphes (rouge dans ce cas) */
+    color: #8ea92b; /* Couleur du texte des paragraphes (rouge dans ce cas) */
     margin: 5px 0; /* Marge supérieure et inférieure des paragraphes */
 }
 

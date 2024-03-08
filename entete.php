@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <h1>EPSILON</h1> <!-- Titre principal -->
+        <h1>EPSI | LON</h1> <!-- Titre principal -->
         <p>Plateforme de peer-learning</p> <!-- Description de la plateforme -->
         <p>EPSI Lille</p> <!-- Informations additionnelles ou d'affiliation -->
 
