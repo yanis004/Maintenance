@@ -1,16 +1,24 @@
-<?php include 'entete.php'; ?> <!-- Inclusion du fichier 'entete.php' -->
-
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    <label for="profile_pic">Téléchargez votre fichier !</label>
-    <input type="file" name="profile_pic" id="profile_pic" accept=".pdf, .jpg, .jpeg, .png" max-size="100000">
-    <!--
-        - L'attribut 'action' spécifie le script pour traiter les données du formulaire.
-        - L'attribut 'method' définit la méthode HTTP (POST dans ce cas).
-        - L'attribut 'enctype' spécifie comment les données du formulaire doivent être encodées (multipart/form-data pour les téléchargements de fichiers).
-    -->
-    <br>
-    <input type="submit" value="Envoyer"> <!-- Bouton de soumission pour envoyer les données du formulaire -->
-</form>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>360Learning</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body class="main_page">
+<div class="center_page">
+    <?php include 'header.html';?>
+    <img src="upload/Quentin.png" class="logo"> <!-- Première image -->
+    <img src="upload/Quentin_Tarantino_by_Gage_Skidmore.jpg" class="logo"> <!-- Deuxième image -->
+    <p> 15/20 : Facilement modifiable, codes bien organisés</p>    
+    <h2>Quentin Caron</h2>
+        <h2>Groupe : Yanis et Vladimir</h2>
+        <br>
+    <bouton class="bouton_link">
+        <a class="link" href="upload.php">
+            Upload your file
+        </a>
+    </bouton>
+    <?php include 'footer.html';?>
+    </div>
 </body>
 </html>
